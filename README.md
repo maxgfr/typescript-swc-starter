@@ -7,8 +7,8 @@ A simple node boilerplate made in typescript using swc.
 ## Clone repository and install dependencies
 
 ```sh
-git clone https://github.com/maxgfr/boilerplate-typescript-swc # For cloning the repository
-cd boilerplate-typescript-swc # To navigate to the repository root
+git clone https://github.com/maxgfr/typescript-swc-starter # For cloning the repository
+cd typescript-swc-starter # To navigate to the repository root
 yarn # Install dependencies
 cp .env.example .env
 ```
