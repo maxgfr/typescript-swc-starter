@@ -26,3 +26,6 @@ build/
 
 # .vscode
 .vscode/
+
+# .vscode
+.swc/
