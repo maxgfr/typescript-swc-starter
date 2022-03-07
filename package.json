@@ -5,6 +5,22 @@
   "license": "MIT",
   "description": "A minimalist typescript swc starter",
   "main": "./build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxgfr/typescript-swc-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxgfr/typescript-swc-starter/issues"
+  },
+  "homepage": "https://github.com/maxgfr/typescript-swc-starter#readme",
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "boilerplate",
+    "typescript",
+    "swc"
+  ],
   "scripts": {
     "start": "node build/index.js",
     "dev": "nodemon",
