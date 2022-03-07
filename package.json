@@ -23,7 +23,7 @@
     "dotenv": "16.0.0"
   },
   "devDependencies": {
-    "@swc-node/register": "^1.4.2",
+    "@swc-node/register": "1.4.2",
     "@swc/cli": "0.1.55",
     "@swc/core": "1.2.150",
     "@swc/jest": "0.2.20",
