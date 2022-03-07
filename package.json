@@ -14,7 +14,7 @@
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
     "build:swc": "swc ./src -d build",
-    "build:swc:watch": "npm run build:swc -- -w",
+    "build:swc:watch": "swc ./src -d build -w",
     "lint": "eslint ./src --ext .ts",
     "prettier": "prettier --write './src/**/*.{ts,js,json}'"
   },
