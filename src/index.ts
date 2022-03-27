@@ -1,3 +1,8 @@
 import 'dotenv/config'; // To use our .env
+import { sayHello } from './hello';
 
-console.log("We're are ready to go", process.env.MY_VARIABLE);
+async function main() {
+  sayHello();
+}
+
+main();
