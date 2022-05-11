@@ -36,7 +36,7 @@
     "prettier": "prettier --write './src/**/*.{ts,js,json}'"
   },
   "dependencies": {
-    "dotenv": "16.0.0"
+    "dotenv": "16.0.1"
   },
   "devDependencies": {
     "@swc-node/register": "1.5.1",
@@ -44,7 +44,7 @@
     "@swc/core": "1.2.181",
     "@swc/jest": "0.2.21",
     "@types/jest": "27.5.0",
-    "@types/node": "16.11.33",
+    "@types/node": "16.11.34",
     "@typescript-eslint/eslint-plugin": "5.23.0",
     "@typescript-eslint/parser": "5.23.0",
     "eslint": "8.15.0",
