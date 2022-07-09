@@ -41,7 +41,7 @@
   "devDependencies": {
     "@swc-node/register": "1.5.1",
     "@swc/cli": "0.1.57",
-    "@swc/core": "1.2.210",
+    "@swc/core": "1.2.211",
     "@swc/jest": "0.2.21",
     "@types/jest": "28.1.4",
     "@types/node": "16.11.43",
