@@ -36,7 +36,7 @@
     "prettier": "prettier --write './src/**/*.{ts,js,json}'"
   },
   "dependencies": {
-    "dotenv": "16.0.2"
+    "dotenv": "16.0.3"
   },
   "devDependencies": {
     "@swc-node/register": "1.5.2",
