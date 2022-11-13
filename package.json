@@ -25,8 +25,8 @@
     "start": "node build/index.js",
     "dev": "nodemon",
     "develop": "node -r @swc-node/register ./src/index.ts",
-    "test": "DOTENV_CONFIG_PATH=.env.test jest",
-    "test:watch": "DOTENV_CONFIG_PATH=.env.test jest --watch",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch --passWithNoTests",
     "clean": "rimraf build",
     "build": "tsc -p tsconfig.build.json",
     "build:watch": "tsc -w -p tsconfig.build.json",
@@ -35,9 +35,7 @@
     "lint": "eslint ./src --ext .ts",
     "prettier": "prettier --write './src/**/*.{ts,js,json}'"
   },
-  "dependencies": {
-    "dotenv": "16.0.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@swc-node/register": "1.5.4",
     "@swc/cli": "0.1.57",
