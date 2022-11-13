@@ -4,6 +4,8 @@ A simple node boilerplate made in typescript using swc.
 
 > NOTE : A version without rust compiler [swc](https://swc.rs/) is available [here](https://github.com/maxgfr/boilerplate-typescript-node).
 
+👾 You can also use a branch which doesn't use dotenv [here](https://github.com/maxgfr/typescript-swc-starter/tree/without-dotenv).
+
 ## Clone repository and install dependencies
 
 ```sh
