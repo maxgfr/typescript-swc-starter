@@ -35,8 +35,9 @@
     "build:swc:watch": "swc ./src -d build -w",
     "lint": "eslint ./src --ext .ts",
     "lint:fix": "eslint ./src --ext .ts --fix",
-    "prettier": "prettier '**/*.{ts,js,json,md}'",
-    "prettier:write": "prettier --write '**/*.{ts,js,json,md}'"
+    "prettier": "prettier '**/*.{ts,json,md}'",
+    "prettier:write": "prettier --write '**/*.{ts,json,md}'",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {},
   "devDependencies": {
