@@ -22,6 +22,7 @@
     "swc"
   ],
   "scripts": {
+    "prepare": "husky install",
     "start": "node build/index.js",
     "dev": "nodemon",
     "develop": "node -r @swc-node/register ./src/index.ts",
@@ -36,19 +37,6 @@
     "lint:fix": "eslint ./src --ext .ts --fix",
     "prettier": "prettier '**/*.{ts,js,json,md}'",
     "prettier:write": "prettier --write '**/*.{ts,js,json,md}'"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "eslint --fix"
-    ],
-    "*.{ts,tsx,json,md}": [
-      "prettier --write"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "dependencies": {},
   "devDependencies": {
