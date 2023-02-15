@@ -8,7 +8,7 @@ A simple node boilerplate made in typescript using swc.
 
 👾 You can also use a branch which use dotenv [here](https://github.com/maxgfr/typescript-swc-starter/tree/with-dotenv).
 
-👽 Finally, there is a branch which generate commonjs file [here](https://github.com/maxgfr/typescript-swc-starter/tree/cj).
+👽 Finally, there is a branch which generate commonjs file [here](https://github.com/maxgfr/typescript-swc-starter/tree/cjs).
 
 ## Clone repository and install dependencies
 
