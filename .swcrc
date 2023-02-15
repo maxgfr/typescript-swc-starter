@@ -3,10 +3,10 @@
     "parser": {
       "syntax": "typescript"
     },
-    "target": "es2021"
+    "target": "esnext"
   },
   "module": {
-    "type": "commonjs"
+    "type": "es6"
   },
   "sourceMaps": true
 }
