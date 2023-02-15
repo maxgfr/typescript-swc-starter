@@ -7,11 +7,11 @@
   "description": "A minimalist typescript swc starter",
   "exports": {
     ".": {
-      "import": "./esm/index.js",
-      "require": "./commonjs/index.cjs"
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
     }
   },
-  "main": "commonjs/index.cjs",
+  "main": "./dist/cjs/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/maxgfr/typescript-swc-starter.git"
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/maxgfr/typescript-swc-starter#readme",
   "files": [
-    "build"
+    "dist"
   ],
   "keywords": [
     "boilerplate",
@@ -30,16 +30,22 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "start": "node build/index.js",
+    "start:cjs": "node ./dist/cjs/index.js",
+    "start:esm": "node --experimental-specifier-resolution=node --loader ts-node/esm ./dist/esm/index.js",
+    "start": "node ./dist/esm/index.js",
     "dev": "nodemon",
     "develop": "ts-node-esm ./src/index.ts",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch --passWithNoTests",
-    "clean": "rimraf build",
-    "build": "tsc -p tsconfig.build.json",
-    "build:watch": "tsc -w -p tsconfig.build.json",
-    "build:swc": "swc ./src -d build",
-    "build:swc:watch": "swc ./src -d build -w",
+    "clean": "rimraf build && rimraf dist",
+    "build:cjs": "tsc -p tsconfig.build.cjs.json",
+    "build:cjs:watch": "tsc -w -p tsconfig.build.cjs.json",
+    "build:esm": "tsc -p tsconfig.build.esm.json",
+    "build:esm:watch": "tsc -w -p tsconfig.build.esm.json",
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:swc": "swc ./src -d dist",
+    "build:swc:watch": "swc ./src -d dist -w",
+    "build:watch": "npm run build:swc:watch",
     "lint": "eslint ./src --ext .ts",
     "lint:fix": "eslint ./src --ext .ts --fix",
     "prettier": "prettier '**/*.{ts,json,md}'",

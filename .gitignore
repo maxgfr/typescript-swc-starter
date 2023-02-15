@@ -29,3 +29,6 @@ build/
 
 # .swc
 .swc/
+
+# dist
+dist/
