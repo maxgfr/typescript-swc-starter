@@ -1,4 +1,4 @@
-import { sayHello } from './hello';
+import { sayHello } from './hello.js';
 
 async function main() {
   sayHello();
