@@ -5,7 +5,13 @@
   "author": "maxgfr",
   "license": "MIT",
   "description": "A minimalist typescript swc starter",
-  "main": "./build/index.js",
+  "exports": {
+    ".": {
+      "import": "./esm/index.js",
+      "require": "./commonjs/index.cjs"
+    }
+  },
+  "main": "commonjs/index.cjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/maxgfr/typescript-swc-starter.git"
