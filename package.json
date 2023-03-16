@@ -73,6 +73,6 @@
     "regenerator-runtime": "^0.13.11",
     "rimraf": "4.4.0",
     "ts-node": "^10.9.1",
-    "typescript": "4.9.5"
+    "typescript": "5.0.2"
   }
 }
