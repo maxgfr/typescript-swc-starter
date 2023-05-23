@@ -6,7 +6,11 @@
     "jest/globals": true
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "jest"],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "jest", "prettier"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",

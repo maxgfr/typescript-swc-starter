@@ -1,6 +1,6 @@
 import { sayHello } from './hello.js';
 
-async function main() {
+function main() {
   sayHello();
 }
 
