@@ -4,7 +4,7 @@ A simple node boilerplate made in typescript using swc.
 
 👻 A version without rust compiler [swc](https://swc.rs/) is available [here](https://github.com/maxgfr/boilerplate-typescript-node).
 
-🤖 A more complex repository is available for creating npm package [here](https://github.com/maxgfr/typescript-boilerplate-package).
+🤖 A version without [`semantic-release`](https://github.com/semantic-release/semantic-release) is available [here](https://github.com/maxgfr/typescript-swc-starter/tree/without-package).
 
 👾 You can also use a branch which use dotenv [here](https://github.com/maxgfr/typescript-swc-starter/tree/with-dotenv).
 
@@ -39,4 +39,17 @@ yarn dev # For running the code in development thanks to swc and nodemon
 ```sh
 yarn test # For running unit test
 yarn test:watch # For watching unit test
+```
+
+## Publish to npm
+
+Set `NPM_TOKEN` in your Github actions secret, and that's it :)
+
+![Alt Text](https://raw.githubusercontent.com/maxgfr/typescript-swc-starter/main/.github/assets/token.png)
+
+To test this package, just do that :
+
+```ts
+import { sayHello } from 'typescript-swc-starter';
+sayHello();
 ```
