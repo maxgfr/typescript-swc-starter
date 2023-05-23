@@ -6,6 +6,8 @@ on:
     branches:
       - 'main'
     contexts: [continuous-integration/github-actions]
+    reviewers: []
+    team_reviewers: []
 
 jobs:
   publish:
