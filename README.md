@@ -2,8 +2,6 @@
 
 A simple node boilerplate made in typescript using swc.
 
-👻 A version without rust compiler [swc](https://swc.rs/) is available [here](https://github.com/maxgfr/boilerplate-typescript-node).
-
 🤖 A version without [`semantic-release`](https://github.com/semantic-release/semantic-release) is available [here](https://github.com/maxgfr/typescript-swc-starter/tree/without-package).
 
 👾 You can also use a branch which use dotenv [here](https://github.com/maxgfr/typescript-swc-starter/tree/with-dotenv).
