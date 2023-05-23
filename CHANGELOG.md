@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.0...v1.1.1) (2023-05-23)
+
+### Bug Fixes
+
+- action ([5d43b84](https://github.com/maxgfr/typescript-swc-starter/commit/5d43b84a3a12530fdd59fd1a977caf0e215e5c56))
+- bypass ([58b0fe6](https://github.com/maxgfr/typescript-swc-starter/commit/58b0fe64e6b1bf6fcef98785fa4f4395f91e358c))
+- bypass ([46271a0](https://github.com/maxgfr/typescript-swc-starter/commit/46271a0cd2dcf1ee4c4f4c96a570d0b736b363aa))
+- protection ([313f826](https://github.com/maxgfr/typescript-swc-starter/commit/313f8260d9d8fc569bea7c83f3d9501b0f5f06f7))
+
 # [1.1.0](https://github.com/maxgfr/typescript-swc-starter/compare/v1.0.0...v1.1.0) (2023-05-23)
 
 ### Bug Fixes
