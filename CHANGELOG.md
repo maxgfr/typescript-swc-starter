@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/maxgfr/typescript-swc-starter/compare/v1.0.0...v1.1.0) (2023-05-23)
+
+### Bug Fixes
+
+- github action ([07962f2](https://github.com/maxgfr/typescript-swc-starter/commit/07962f211d7f6e2ee33535d902b1b15cdaa319fb))
+- github action ([6df2593](https://github.com/maxgfr/typescript-swc-starter/commit/6df2593e132e99f5d836f7b21182c18cbfbaaa74))
+- github action ([e5b116a](https://github.com/maxgfr/typescript-swc-starter/commit/e5b116ac38e44b2351825e2590a088aa78706dfc))
+- readme + eslintignore ([fd27db1](https://github.com/maxgfr/typescript-swc-starter/commit/fd27db15dfb02a9a036aaa11100b2dc3ffe45363))
+
+### Features
+
+- add cjs support for npm package ([1e9dba9](https://github.com/maxgfr/typescript-swc-starter/commit/1e9dba957a582ab5ce3a771c02962b3af728e8ab))
+
 # 1.0.0 (2023-05-23)
 
 ### Bug Fixes
