@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - 'main'
+    contexts: [continuous-integration/github-actions]
 
 jobs:
   publish:
