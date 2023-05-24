@@ -1,3 +1,9 @@
+## [1.1.3](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.2...v1.1.3) (2023-05-24)
+
+### Bug Fixes
+
+- ts-node ([5337f39](https://github.com/maxgfr/typescript-swc-starter/commit/5337f390e62b2430f929dbc639c69d038f035181))
+
 ## [1.1.2](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.1...v1.1.2) (2023-05-23)
 
 ### Bug Fixes
