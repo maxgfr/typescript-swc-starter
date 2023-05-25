@@ -99,7 +99,6 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.test.ts"],
   "ts-node": {
     "swc": true,
     "esm": true,
