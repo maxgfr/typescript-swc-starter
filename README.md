@@ -1,12 +1,8 @@
 # typescript-swc-starter
 
-A simple node boilerplate made in typescript using swc.
+A simple node boilerplate made in typescript using swc which generates `cjs` and `esm` modules.
 
 🤖 A version without [`semantic-release`](https://github.com/semantic-release/semantic-release) is available [here](https://github.com/maxgfr/typescript-swc-starter/tree/without-package).
-
-👾 You can also use a branch which use dotenv [here](https://github.com/maxgfr/typescript-swc-starter/tree/with-dotenv).
-
-👽 Finally, there is a branch which generate commonjs file [here](https://github.com/maxgfr/typescript-swc-starter/tree/commonjs).
 
 ## Clone repository and install dependencies
 
@@ -16,27 +12,24 @@ cd typescript-swc-starter # To navigate to the repository root
 yarn # Install dependencies
 ```
 
-## Running the code
+:warning: You have to use at least `node@20` to run this project.
 
-```sh
-yarn build # For building the code with typechecking
-yarn build:swc # For building without typechecking
-yarn start # For running the code builded
-```
-
-Or in `development` mode:
+## Commands
 
 ```sh
 yarn dev # For running the code in development thanks to swc and nodemon
-```
 
-> **:warning: No typechecking made in dev mode**
-
-## Testing the code
-
-```sh
 yarn test # For running unit test
 yarn test:watch # For watching unit test
+
+yarn lint # For linting the code
+yarn lint:fix # For linting the code and fix issues
+
+yarn build # For building the code (there is no typechecking due to swc compiler)
+yarn type-check # For typechecking the code
+
+yarn start:cjs # For running the code builded in cjs
+yarn start:esm # For running the code builded in esm
 ```
 
 ## Publish to npm

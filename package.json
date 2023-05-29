@@ -45,6 +45,7 @@
     "lint:fix": "eslint ./src --ext .ts --fix",
     "prettier": "prettier '**/*.{ts,json,md}'",
     "prettier:write": "prettier --write '**/*.{ts,json,md}'",
+    "type-check": "tsc --noEmit",
     "lint-staged": "lint-staged",
     "release": "semantic-release",
     "bundle": "unbuild"
