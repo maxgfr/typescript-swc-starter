@@ -2,8 +2,6 @@
 
 A simple node boilerplate made in typescript using swc which generates `cjs` and `esm` modules.
 
-🤖 A version without [`semantic-release`](https://github.com/semantic-release/semantic-release) is available [here](https://github.com/maxgfr/typescript-swc-starter/tree/without-package).
-
 ## Clone repository and install dependencies
 
 ```sh
