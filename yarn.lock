@@ -980,11 +980,9 @@
     which "^3.0.0"
 
 "@octokit/auth-token@^3.0.0":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@octokit/auth-token/-/auth-token-3.0.3.tgz#ce7e48a3166731f26068d7a7a7996b5da58cbe0c"
-  integrity sha512-/aFM2M4HVDBT/jjDBa84sJniv1t9Gm/rLkalaz9htOm+L+8JMj1k9w0CkUdcxNyNxZPlTxKPVko+m1VlM58ZVA==
-  dependencies:
-    "@octokit/types" "^9.0.0"
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@octokit/auth-token/-/auth-token-3.0.4.tgz#70e941ba742bdd2b49bdb7393e821dea8520a3db"
+  integrity sha512-TWFX7cZF2LXoCvdmJWY7XVPi74aSY0+FfBZNSXEXFkMpjcqsQwDSYVv5FhRFaI0V1ECnwbz4j59T/G+rXNWaIQ==
 
 "@octokit/core@^4.2.1":
   version "4.2.1"
@@ -1031,17 +1029,17 @@
     "@octokit/types" "^9.2.3"
 
 "@octokit/plugin-retry@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-retry/-/plugin-retry-5.0.0.tgz#f84087541035035a1969a265ab3e274988524208"
-  integrity sha512-mfON7q30NLdivuJktZuSP6I4/WPMjc/bcoxcHEWXd4esedHTqQpp3OUq2NzD2+M+J6o33zYDtJTl4qtRYh8HQQ==
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-retry/-/plugin-retry-5.0.2.tgz#c324506d08fa01080cc22f10b9f12dfeb096ba79"
+  integrity sha512-/Z7rWLCfjwmaVdyFuMkZoAnhfrvYgtvDrbO2d6lv7XrvJa8gFGB5tLUMngfuyMBfDCc5B9+EVu7IkQx5ebVlMg==
   dependencies:
     "@octokit/types" "^9.0.0"
     bottleneck "^2.15.3"
 
 "@octokit/plugin-throttling@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-throttling/-/plugin-throttling-6.0.0.tgz#1ab19a9fe17e57a6eabd817022df4329eeba8295"
-  integrity sha512-RdKkzD8X/T17KJmEHTsZ5Ztj7WGNpxsJAIyR1bgvkoyar+cDrIRZMsP15r8JRB1QI/LN2F/stUs5/kMVaYXS9g==
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-throttling/-/plugin-throttling-6.0.1.tgz#05f0b7ab9ae12f677179a3ca79f27a1eb9c8b07e"
+  integrity sha512-C5h2lT+LEF4SqmbB1RbMn1PhBlHKkZoqMGS39woJr0XJ+getmOcUvrytTtS4NOn1zh/iT1ByRWYwwmFYznv83w==
   dependencies:
     "@octokit/types" "^9.0.0"
     bottleneck "^2.15.3"
@@ -1188,6 +1186,11 @@
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-3.0.0.tgz#30a3b97bbb5844d695eb22f9d3aa40f6a92770c2"
   integrity sha512-5hiM4Un+tpl4cKw3lV4UgzJj+SmfNIDCLLw0TepzQxz9ZGV5ixnqkzIVF+3tp0ZHgcMKE+VNGHJjEeyFG2dcSw==
 
+"@semantic-release/error@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-4.0.0.tgz#692810288239637f74396976a9340fbc0aa9f6f9"
+  integrity sha512-mgdxrHTLOjOddRVYIYDo0fR3/v61GNN1YGkfbrjuIKg/uMgCd+Qzo3UAXJ+woLQQpos4pl5Esuw5A7AoNlzjUQ==
+
 "@semantic-release/git@^10.0.1":
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-10.0.1.tgz#c646e55d67fae623875bf3a06a634dd434904498"
@@ -1203,15 +1206,15 @@
     p-reduce "^2.0.0"
 
 "@semantic-release/github@^9.0.0":
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.0.2.tgz#2e1c7cbaa15ba2009ae0607e55354aa5e4cacc77"
-  integrity sha512-FDwR9Tkz14MR/HF6srbHDuqLPUI0GmPgn4tkjfPi45/1oZedqEXC3TqSHK3+ykJmWj1sXgs94zwGI10VR5o6kg==
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.0.3.tgz#2559da9bcedeacb572f240469270a281c2a83615"
+  integrity sha512-X6gq4USKVlCxPwIIyXb99jU7gwVWlnsKOevs+OyABRdoqc+OIRITbFmrrYU3eE1vGMGk+Qu/GAoLUQQQwC3YOA==
   dependencies:
     "@octokit/core" "^4.2.1"
     "@octokit/plugin-paginate-rest" "^7.0.0"
     "@octokit/plugin-retry" "^5.0.0"
     "@octokit/plugin-throttling" "^6.0.0"
-    "@semantic-release/error" "^3.0.0"
+    "@semantic-release/error" "^4.0.0"
     aggregate-error "^4.0.1"
     debug "^4.3.4"
     dir-glob "^3.0.1"
