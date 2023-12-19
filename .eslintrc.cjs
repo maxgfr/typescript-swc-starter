@@ -17,5 +17,5 @@ module.exports = {
     'prettier',
   ],
   rules: {},
-  ignorePatterns: ['**/*.cjs', '**/*.mjs', '**/*.js'],
+  ignorePatterns: ['**/*.cjs', '**/*.mjs', '**/*.js', 'jest.config.ts'],
 };
