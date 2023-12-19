@@ -1,3 +1,9 @@
+## [1.1.6](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.5...v1.1.6) (2023-12-19)
+
+### Bug Fixes
+
+- **ci:** node v ([96bf174](https://github.com/maxgfr/typescript-swc-starter/commit/96bf174288414db549e3f6aa1181080ad38d908e))
+
 ## [1.1.5](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.4...v1.1.5) (2023-12-19)
 
 ### Bug Fixes
