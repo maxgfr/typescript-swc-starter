@@ -1,3 +1,9 @@
+## [1.1.5](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.4...v1.1.5) (2023-12-19)
+
+### Bug Fixes
+
+- test ([d58e493](https://github.com/maxgfr/typescript-swc-starter/commit/d58e493ccd8bcd03dd791aba1ff67e19e63c78f8))
+
 ## [1.1.4](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.3...v1.1.4) (2023-12-19)
 
 ### Bug Fixes
