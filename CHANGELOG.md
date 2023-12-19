@@ -1,3 +1,9 @@
+## [1.1.7](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.6...v1.1.7) (2023-12-19)
+
+### Bug Fixes
+
+- lockfile ([8b97b11](https://github.com/maxgfr/typescript-swc-starter/commit/8b97b114f2bc1042e2bf88d05455c2f8e5c0c3b7))
+
 ## [1.1.6](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.5...v1.1.6) (2023-12-19)
 
 ### Bug Fixes
