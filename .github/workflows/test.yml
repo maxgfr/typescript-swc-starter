@@ -13,7 +13,6 @@ jobs:
         with:
           architecture: 'arm64'
           node-version: 20
-          cache: 'yarn'
       - name: Install
         run: yarn --frozen-lockfile
       - name: Test
