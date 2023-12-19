@@ -1,4 +1,4 @@
-{
+module.exports ={
   "env": {
     "browser": false,
     "es6": true,
@@ -6,16 +6,16 @@
     "jest/globals": true
   },
   "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "./tsconfig.json",
-    "sourceType": "module"
-  },
+  parserOptions: {
+    project: "./tsconfig.json",
+    tsconfigRootDir: __dirname,
+},
   "plugins": ["@typescript-eslint", "jest", "prettier"],
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier"
   ],
-  "rules": {}
+  "rules": {},
+  "ignorePatterns": ["**/*.cjs", "**/*.mjs", "**/*.js"],
 }

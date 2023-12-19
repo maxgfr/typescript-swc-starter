@@ -36,13 +36,16 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
-![](https://img.stackshare.io/repo.svg "repo") [maxgfr/typescript-swc-starter](https://github.com/maxgfr/typescript-swc-starter)![](https://img.stackshare.io/public_badge.svg "public")
+
+![](https://img.stackshare.io/repo.svg 'repo') [maxgfr/typescript-swc-starter](https://github.com/maxgfr/typescript-swc-starter)![](https://img.stackshare.io/public_badge.svg 'public')
 <br/><br/>
 |31<br/>Tools used|11/10/23 <br/>Report generated|
 |------|------|
+
 </div>
 
 ## <img src='https://img.stackshare.io/languages.svg'/> Languages (2)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'>
@@ -64,6 +67,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (1)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'>
@@ -77,6 +81,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/devops.svg'/> DevOps (8)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'>
@@ -146,6 +151,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## Other (4)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'>
@@ -182,29 +188,28 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-
 ## <img src='https://img.stackshare.io/group.svg' /> Open source packages (16)</h2>
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (16)
 
-|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
-|:------|:------|:------|:------|:------|:------|
-|[@semantic-release/changelog](https://www.npmjs.com/@semantic-release/changelog)|v6.0.3|06/03/23|renovate[bot] |MIT|N/A|
-|[@semantic-release/commit-analyzer](https://www.npmjs.com/@semantic-release/commit-analyzer)|v10.0.1|06/03/23|renovate[bot] |MIT|N/A|
-|[@semantic-release/git](https://www.npmjs.com/@semantic-release/git)|v10.0.1|06/03/23|renovate[bot] |MIT|N/A|
-|[@semantic-release/github](https://www.npmjs.com/@semantic-release/github)|v9.0.4|06/03/23|renovate[bot] |MIT|N/A|
-|[@semantic-release/npm](https://www.npmjs.com/@semantic-release/npm)|v10.0.4|06/03/23|renovate[bot] |MIT|N/A|
-|[@semantic-release/release-notes-generator](https://www.npmjs.com/@semantic-release/release-notes-generator)|v11.0.4|08/08/23|renovate[bot] |MIT|N/A|
-|[@types/jest](https://www.npmjs.com/@types/jest)|v29.5.3|08/12/23|renovate[bot] |MIT|N/A|
-|[@types/node](https://www.npmjs.com/@types/node)|v20.2.3|08/11/23|renovate[bot] |MIT|N/A|
-|[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v6.3.0|08/11/23|renovate[bot] |MIT|N/A|
-|[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v6.3.0|08/11/23|renovate[bot] |BSD-2-Clause|N/A|
-|[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v9.0.0|08/11/23|renovate[bot] |MIT|N/A|
-|[eslint-plugin-jest](https://www.npmjs.com/eslint-plugin-jest)|v27.2.3|08/12/23|renovate[bot] |MIT|N/A|
-|[eslint-plugin-prettier](https://www.npmjs.com/eslint-plugin-prettier)|v5.0.0|08/11/23|renovate[bot] |MIT|N/A|
-|[regenerator-runtime](https://www.npmjs.com/regenerator-runtime)|v0.14.0|08/08/23|renovate[bot] |MIT|N/A|
-|[rimraf](https://www.npmjs.com/rimraf)|v5.0.1|05/23/23|renovate[bot] |ISC|N/A|
-|[ts-node](https://www.npmjs.com/ts-node)|v10.9.1|08/11/23|renovate[bot] |MIT|N/A|
+| NAME                                                                                                         | VERSION | LAST UPDATED | LAST UPDATED BY | LICENSE      | VULNERABILITIES |
+| :----------------------------------------------------------------------------------------------------------- | :------ | :----------- | :-------------- | :----------- | :-------------- |
+| [@semantic-release/changelog](https://www.npmjs.com/@semantic-release/changelog)                             | v6.0.3  | 06/03/23     | renovate[bot]   | MIT          | N/A             |
+| [@semantic-release/commit-analyzer](https://www.npmjs.com/@semantic-release/commit-analyzer)                 | v10.0.1 | 06/03/23     | renovate[bot]   | MIT          | N/A             |
+| [@semantic-release/git](https://www.npmjs.com/@semantic-release/git)                                         | v10.0.1 | 06/03/23     | renovate[bot]   | MIT          | N/A             |
+| [@semantic-release/github](https://www.npmjs.com/@semantic-release/github)                                   | v9.0.4  | 06/03/23     | renovate[bot]   | MIT          | N/A             |
+| [@semantic-release/npm](https://www.npmjs.com/@semantic-release/npm)                                         | v10.0.4 | 06/03/23     | renovate[bot]   | MIT          | N/A             |
+| [@semantic-release/release-notes-generator](https://www.npmjs.com/@semantic-release/release-notes-generator) | v11.0.4 | 08/08/23     | renovate[bot]   | MIT          | N/A             |
+| [@types/jest](https://www.npmjs.com/@types/jest)                                                             | v29.5.3 | 08/12/23     | renovate[bot]   | MIT          | N/A             |
+| [@types/node](https://www.npmjs.com/@types/node)                                                             | v20.2.3 | 08/11/23     | renovate[bot]   | MIT          | N/A             |
+| [@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)                   | v6.3.0  | 08/11/23     | renovate[bot]   | MIT          | N/A             |
+| [@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)                                 | v6.3.0  | 08/11/23     | renovate[bot]   | BSD-2-Clause | N/A             |
+| [eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)                                       | v9.0.0  | 08/11/23     | renovate[bot]   | MIT          | N/A             |
+| [eslint-plugin-jest](https://www.npmjs.com/eslint-plugin-jest)                                               | v27.2.3 | 08/12/23     | renovate[bot]   | MIT          | N/A             |
+| [eslint-plugin-prettier](https://www.npmjs.com/eslint-plugin-prettier)                                       | v5.0.0  | 08/11/23     | renovate[bot]   | MIT          | N/A             |
+| [regenerator-runtime](https://www.npmjs.com/regenerator-runtime)                                             | v0.14.0 | 08/08/23     | renovate[bot]   | MIT          | N/A             |
+| [rimraf](https://www.npmjs.com/rimraf)                                                                       | v5.0.1  | 05/23/23     | renovate[bot]   | ISC          | N/A             |
+| [ts-node](https://www.npmjs.com/ts-node)                                                                     | v10.9.1 | 08/11/23     | renovate[bot]   | MIT          | N/A             |
 
 <br/>
 <div align='center'>
