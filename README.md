@@ -23,8 +23,7 @@ yarn test:watch # For watching unit test
 yarn lint # For linting the code
 yarn lint:fix # For linting the code and fix issues
 
-yarn build # For building the code (there is no typechecking due to swc compiler)
-yarn type-check # For typechecking the code
+yarn bundle # For generating bundling in cjs and esm
 
 yarn start:cjs # For running the code builded in cjs
 yarn start:esm # For running the code builded in esm
