@@ -77,7 +77,7 @@
     "prettier": "3.2.1",
     "regenerator-runtime": "^0.14.0",
     "rimraf": "5.0.5",
-    "semantic-release": "^22.0.0",
+    "semantic-release": "^23.0.0",
     "ts-node": "^10.9.1",
     "typescript": "5.3.3",
     "unbuild": "^2.0.0"
