@@ -76,7 +76,7 @@
     "nodemon": "3.1.0",
     "prettier": "3.2.5",
     "regenerator-runtime": "^0.14.0",
-    "rimraf": "5.0.6",
+    "rimraf": "5.0.7",
     "semantic-release": "^23.0.0",
     "ts-node": "^10.9.1",
     "typescript": "5.4.5",
