@@ -79,7 +79,7 @@
     "rimraf": "5.0.9",
     "semantic-release": "^23.0.0",
     "ts-node": "^10.9.1",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "unbuild": "^2.0.0"
   },
   "resolutions": {
