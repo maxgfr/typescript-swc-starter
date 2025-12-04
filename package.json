@@ -1,7 +1,7 @@
 {
   "name": "typescript-swc-starter",
   "type": "module",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "maxgfr",
   "license": "MIT",
   "description": "A minimalist typescript swc starter",

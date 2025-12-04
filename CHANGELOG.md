@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/maxgfr/typescript-swc-starter/compare/v1.2.0...v1.2.1) (2025-12-04)
+
+
+### Bug Fixes
+
+* update Biome version and adjust configuration files ([4af7bbf](https://github.com/maxgfr/typescript-swc-starter/commit/4af7bbfb785401067260d521d51f00cda1f459ff))
+
 # [1.2.0](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.7...v1.2.0) (2025-12-04)
 
 
