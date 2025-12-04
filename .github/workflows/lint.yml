@@ -14,8 +14,6 @@ jobs:
           node-version-file: .node-version
       - name: Install pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9
       - name: Install
         run: pnpm install --frozen-lockfile
       - name: Check (lint + format)

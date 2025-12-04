@@ -5,6 +5,7 @@
   "author": "maxgfr",
   "license": "MIT",
   "description": "A minimalist typescript swc starter",
+  "packageManager": "pnpm@10.24.0",
   "engines": {
     "node": ">=24"
   },
