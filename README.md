@@ -31,7 +31,9 @@ yarn start:esm # For running the code builded in esm
 
 ## Publish to npm
 
-Set `NPM_TOKEN` in your Github actions secret, and that's it :)
+Thanks to OIDC, you no longer need the `NPM_TOKEN`.
+
+Go to your npm package's access page https://www.npmjs.com/package/my-repo-name/access, , set your details and trust publisher, and you're all set!
 
 ![Alt Text](https://raw.githubusercontent.com/maxgfr/typescript-swc-starter/main/.github/assets/token.png)
 
