@@ -5,6 +5,9 @@
   "author": "maxgfr",
   "license": "MIT",
   "description": "A minimalist typescript swc starter",
+  "engines": {
+    "node": ">=24"
+  },
   "main": "./dist/index.cjs",
   "exports": {
     ".": {
