@@ -7,7 +7,7 @@ A simple node boilerplate made in typescript using swc which generates `cjs` and
 ```sh
 git clone https://github.com/maxgfr/typescript-swc-starter # For cloning the repository
 cd typescript-swc-starter # To navigate to the repository root
-yarn # Install dependencies
+pnpm install # Install dependencies
 ```
 
 :warning: You have to use at least `node@20` to run this project.
@@ -15,18 +15,18 @@ yarn # Install dependencies
 ## Commands
 
 ```sh
-yarn dev # For running the code in development thanks to swc and nodemon
+pnpm dev # For running the code in development thanks to swc and nodemon
 
-yarn test # For running unit test
-yarn test:watch # For watching unit test
+pnpm test # For running unit test
+pnpm test:watch # For watching unit test
 
-yarn lint # For linting the code
-yarn lint:fix # For linting the code and fix issues
+pnpm lint # For linting the code
+pnpm lint:fix # For linting the code and fix issues
 
-yarn bundle # For generating bundling in cjs and esm
+pnpm bundle # For generating bundling in cjs and esm
 
-yarn start:cjs # For running the code builded in cjs
-yarn start:esm # For running the code builded in esm
+pnpm start:cjs # For running the code builded in cjs
+pnpm start:esm # For running the code builded in esm
 ```
 
 ## Publish to npm

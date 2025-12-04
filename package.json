@@ -82,7 +82,9 @@
     "typescript": "5.9.3",
     "unbuild": "^2.0.0"
   },
-  "resolutions": {
-    "wrap-ansi": "7.0.0"
+  "pnpm": {
+    "overrides": {
+      "wrap-ansi": "7.0.0"
+    }
   }
 }

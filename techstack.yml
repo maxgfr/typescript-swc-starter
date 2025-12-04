@@ -81,7 +81,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: maxgfr
   last_updated_on: 2022-03-06 16:43:58.000000000 Z
@@ -95,19 +95,19 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-05 21:29:46.000000000 Z
-- name: Yarn
-  description: A new package manager for JavaScript
-  website_url: https://yarnpkg.com/
+- name: pnpm
+  description: Fast, disk space efficient package manager
+  website_url: https://pnpm.io/
   open_source: true
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
-  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: yarn.lock
+  image_url: https://img.stackshare.io/service/10903/JLVo_YPe_400x400.jpg
+  detection_source: pnpm-lock.yaml
   last_updated_by: maxgfr
   last_updated_on: 2022-03-06 16:43:58.000000000 Z
 - name: nodemon
@@ -120,7 +120,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-11 21:24:30.000000000 Z
@@ -180,7 +180,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16473/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-06-03 00:10:17.000000000 Z
@@ -194,7 +194,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17119/default_aae1698f13b22e457dce8faa3612b71379cf7a48.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-06-03 00:10:17.000000000 Z
@@ -209,7 +209,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16388/default_3d8bf87f0e09f3da6536330e02ffa89677f8784b.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-06-03 00:10:17.000000000 Z
@@ -224,7 +224,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17137/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-06-03 00:10:17.000000000 Z
@@ -238,7 +238,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16690/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-06-03 00:10:17.000000000 Z
@@ -252,7 +252,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17103/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-08 00:31:57.000000000 Z
@@ -266,7 +266,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-12 10:17:54.000000000 Z
@@ -280,7 +280,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-11 21:24:30.000000000 Z
@@ -294,7 +294,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-11 21:24:30.000000000 Z
@@ -308,7 +308,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-11 21:24:30.000000000 Z
@@ -322,7 +322,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-11 21:24:30.000000000 Z
@@ -336,7 +336,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-12 10:17:54.000000000 Z
@@ -350,7 +350,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-11 21:24:30.000000000 Z
@@ -364,7 +364,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-08 00:31:57.000000000 Z
@@ -378,7 +378,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-05-23 11:07:27.000000000 Z
@@ -392,7 +392,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: pnpm-lock.yaml
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2023-08-11 21:24:30.000000000 Z
