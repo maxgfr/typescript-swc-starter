@@ -84,7 +84,7 @@
   },
   "pnpm": {
     "overrides": {
-      "wrap-ansi": "7.0.0"
+      "wrap-ansi": "9.0.2"
     }
   }
 }
