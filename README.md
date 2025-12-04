@@ -20,8 +20,12 @@ pnpm dev # For running the code in development thanks to swc and nodemon
 pnpm test # For running unit test
 pnpm test:watch # For watching unit test
 
-pnpm lint # For linting the code
+pnpm lint # For linting the code with Biome
 pnpm lint:fix # For linting the code and fix issues
+pnpm format # For checking formatting with Biome
+pnpm format:fix # For formatting the code
+pnpm check # For running both lint and format checks
+pnpm check:fix # For fixing both lint and format issues
 
 pnpm bundle # For generating bundling in cjs and esm
 

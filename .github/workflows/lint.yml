@@ -18,5 +18,5 @@ jobs:
           version: 9
       - name: Install
         run: pnpm install --frozen-lockfile
-      - name: Lint
-        run: pnpm lint
+      - name: Check (lint + format)
+        run: pnpm check
