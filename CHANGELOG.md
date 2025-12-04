@@ -1,3 +1,19 @@
+# [1.2.0](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.7...v1.2.0) (2025-12-04)
+
+
+### Bug Fixes
+
+* ci npm publish ([b2a9cc5](https://github.com/maxgfr/typescript-swc-starter/commit/b2a9cc51ad79fbc3e9d60cabfddce3ab7319640a))
+* ci npm publish ([2c330d3](https://github.com/maxgfr/typescript-swc-starter/commit/2c330d30cf58a536545b75b46738fbf6eae12f17))
+* update Node.js setup to use version file in workflows ([245bced](https://github.com/maxgfr/typescript-swc-starter/commit/245bced6cd819be9c25076a98f4dc8b4277f53df))
+
+
+### Features
+
+* add permissions for GitHub actions in publish workflow ([bb92e56](https://github.com/maxgfr/typescript-swc-starter/commit/bb92e56818b531abd180c96f0368a2b92c7ec031))
+* update tech stack and replace ESLint with Biome ([3a78f07](https://github.com/maxgfr/typescript-swc-starter/commit/3a78f07b2ad918d9baeef6dfb3fba5355f6c8cdf))
+* use pnpm ([0580c8f](https://github.com/maxgfr/typescript-swc-starter/commit/0580c8f648d508d189d09c4ee2169d6d0a2e24a5))
+
 ## [1.1.7](https://github.com/maxgfr/typescript-swc-starter/compare/v1.1.6...v1.1.7) (2023-12-19)
 
 ### Bug Fixes
