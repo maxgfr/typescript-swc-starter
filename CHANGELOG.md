@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/maxgfr/typescript-swc-starter/compare/v1.2.1...v1.2.2) (2025-12-14)
+
+
+### Bug Fixes
+
+* license name ([c877535](https://github.com/maxgfr/typescript-swc-starter/commit/c877535b39b4d5d4f7dcf8a686dffd3606c83e53))
+
 ## [1.2.1](https://github.com/maxgfr/typescript-swc-starter/compare/v1.2.0...v1.2.1) (2025-12-04)
 
 
