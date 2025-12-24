@@ -38,7 +38,7 @@ pnpm install
 
 ```sh
 pnpm dev          # Run in development mode with hot reload
-pnpm develop      # Run with ts-node (alternative)
+pnpm develop      # Run source code with SWC register
 ```
 
 ### Testing
