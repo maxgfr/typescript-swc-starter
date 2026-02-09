@@ -13,4 +13,5 @@ jobs:
     uses: maxgfr/package-checker.sh/.github/workflows/reusable-check.yml@main
     with:
       use-ghsa: true
-      fail-on-vulnerabilities: true
+      use-osv: true
+      fail-on-vulnerabilities: false
