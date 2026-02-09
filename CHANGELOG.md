@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/maxgfr/typescript-swc-starter/compare/v1.2.2...v1.2.3) (2026-02-09)
+
+
+### Bug Fixes
+
+* remove renovate.json ([c370d60](https://github.com/maxgfr/typescript-swc-starter/commit/c370d606b07b72fc7fea084e71d13bea095cd459))
+
 ## [1.2.2](https://github.com/maxgfr/typescript-swc-starter/compare/v1.2.1...v1.2.2) (2025-12-14)
 
 
