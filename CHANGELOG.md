@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/maxgfr/typescript-swc-starter/compare/v1.2.3...v1.2.4) (2026-02-09)
+
+
+### Bug Fixes
+
+* Refactor code structure for improved readability and maintainability ([c526321](https://github.com/maxgfr/typescript-swc-starter/commit/c526321d338c4f792f68209efc07d9cd2835fe5f))
+
 ## [1.2.3](https://github.com/maxgfr/typescript-swc-starter/compare/v1.2.2...v1.2.3) (2026-02-09)
 
 
